@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background: #161616; }
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.content__search {
+  display: flex;
+  align-items: center;
+  position: relative; }
+
+.search__input {
+  width: 12rem;
+  height: 2.5rem;
+  border-radius: 2.5rem;
+  outline: none;
+  border: none;
+  padding-left: 1rem;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #000; }
+  .search__input::-webkit-input-placeholder {
+    font-family: 'IBM Plex Mono', monospace;
+    color: blueviolet; }
+
+.search__button {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  display: block;
+  right: 0;
+  margin-right: .25rem;
+  border-radius: 2rem;
+  outline: none;
+  border: none;
+  background: blueviolet;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+  border: 2px solid rgba(138, 43, 226, 0);
+  box-shadow: 0 4px 8px rgba(138, 43, 226, 0.5); }
+  .search__button:hover {
+    background: #fff;
+    border: 2px solid blueviolet;
+    box-shadow: 0 2px 4px rgba(138, 43, 226, 0); }
+    .search__button:hover svg {
+      fill: blueviolet; }
+  .search__button svg {
+    width: 1.125rem;
+    height: 1.125rem;
+    fill: #fff; }
+
+/*# sourceMappingURL=style.css.map */
